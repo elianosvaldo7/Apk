@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"
+        android:singleLine="true"
+        android:ellipsize="middle"/>
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/tvState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/btnOpen"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button_secondary"
+            android:text="@string/action_open"
+            android:textColor="@color/text_primary"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:layout_marginEnd="6dp"/>
+
+        <Button
+            android:id="@+id/btnResume"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button_secondary"
+            android:text="@string/action_resume"
+            android:textColor="@color/text_primary"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:layout_marginEnd="6dp"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button_secondary"
+            android:text="@string/action_delete"
+            android:textColor="@color/error"
+            android:textAllCaps="false"
+            android:textSize="12sp"/>
+    </LinearLayout>
+</LinearLayout>

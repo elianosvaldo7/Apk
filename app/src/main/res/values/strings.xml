@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BitZero Downloader</string>
+    <string name="hint_url">Pega la URL BitZero aquí</string>
+    <string name="action_download">Descargar</string>
+    <string name="action_paste">Pegar</string>
+    <string name="action_clear">Limpiar</string>
+    <string name="action_history">Historial</string>
+    <string name="status_idle">Listo para descargar</string>
+    <string name="status_parsing">Procesando URL…</string>
+    <string name="status_connecting">Conectando al servidor…</string>
+    <string name="status_login">Iniciando sesión…</string>
+    <string name="status_downloading">Descargando %1$s</string>
+    <string name="status_assembling">Reensamblando archivo…</string>
+    <string name="status_completed">✓ Descarga completada</string>
+    <string name="status_failed">✗ Error: %1$s</string>
+    <string name="channel_downloads">Descargas BitZero</string>
+    <string name="notif_downloading">Descargando…</string>
+    <string name="history_empty">Aún no hay descargas</string>
+    <string name="action_open">Abrir</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_resume">Reanudar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_retry">Reintentar</string>
+    <string name="invalid_url">URL BitZero inválida</string>
+    <string name="saved_in">Guardado en Descargas/BitZero</string>
+</resources>

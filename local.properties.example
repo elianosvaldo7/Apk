@@ -1,0 +1,4 @@
+# Apunta a tu Android SDK local. Ejemplo:
+# Linux/Mac:  sdk.dir=/Users/tu_usuario/Library/Android/sdk
+# Windows:    sdk.dir=C\:\\Users\\tu_usuario\\AppData\\Local\\Android\\Sdk
+sdk.dir=
